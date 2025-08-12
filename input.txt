@@ -1,0 +1,39 @@
+input(a);
+input(b);
+
+aIsLessThanB := a < b;
+aIsGreaterThanB := a > b;
+aIsEqualToB := a == b;
+aIsNotEqualToB := a != b;
+
+print(aIsLessThanB);
+print(aIsGreaterThanB);
+print(aIsEqualToB);
+print(aIsNotEqualToB);
+
+input(c);
+input(d);
+
+sum := c + d;
+cDividedByD := c / d;
+dDividedByC := d / c;
+multiplication := c * d;
+
+print(sum);
+print(cDividedByD);
+print(dDividedByC);
+print(multiplication);
+
+input(e);
+input(f);
+input(g);
+
+equationWithoutParentheses := e + f * g;
+equationWithParentheses := (e + f) * g;
+
+print(equationWithoutParentheses);
+print(equationWithParentheses);
+
+
+
+
